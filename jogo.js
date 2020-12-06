@@ -1,12 +1,12 @@
-console.log('[DevSoutinho] Flappy Bird');
-console.log('Inscreva-se no canal :D https://www.youtube.com/channel/UCzR2u5RWXWjUh7CwLSvbitA');
+console.log('GaBird');
+
 
 let frames = 0;
 const som_HIT = new Audio();
 som_HIT.src = './efeitos/hit.wav';
 
 const sprites = new Image();
-sprites.src = './sprites.png';
+sprites.src = './sem título.png';
 
 const canvas = document.querySelector('canvas');
 const contexto = canvas.getContext('2d');
